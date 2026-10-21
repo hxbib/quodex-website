@@ -3,9 +3,9 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://quodex.app'),
-  title: 'Quodex — Know your limits. Own your resets.',
+  title: 'Quodex — Your ChatGPT limits, in plain sight.',
   description:
-    'A lightweight menu bar app for every ChatGPT account — live usage, pooled capacity, countdowns, and banked resets.',
+    'See your ChatGPT usage, remaining capacity, and reset countdowns from your Mac’s menu bar. Free, native, and open source.',
   keywords: [
     'Quodex',
     'ChatGPT usage tracker',
@@ -15,17 +15,17 @@ export const metadata: Metadata = {
   ],
   icons: { icon: '/app-icon.svg', apple: '/app-icon.svg' },
   openGraph: {
-    title: 'Quodex — Know your limits. Own your resets.',
+    title: 'Quodex — Your ChatGPT limits, in plain sight.',
     description:
-      'A lightweight menu bar app for every ChatGPT account — live usage, pooled capacity, countdowns, and banked resets.',
+      'Your ChatGPT accounts, at a glance. A free, native Mac app for usage windows and reset countdowns.',
     type: 'website',
     images: ['/og.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Quodex — Know your limits. Own your resets.',
+    title: 'Quodex — Your ChatGPT limits, in plain sight.',
     description:
-      'A lightweight menu bar app for every ChatGPT account — live usage, pooled capacity, countdowns, and banked resets.',
+      'Your ChatGPT accounts, at a glance. A free, native Mac app for usage windows and reset countdowns.',
     images: ['/og.png'],
   },
 };

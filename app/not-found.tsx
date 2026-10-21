@@ -5,19 +5,8 @@ import Link from 'next/link';
 export default function NotFound() {
   return (
     <main className="not-found-page">
-      <div className="ambient-background" aria-hidden="true">
-        <i />
-        <i />
-        <i />
-        <span />
-      </div>
       <section className="not-found-window">
         <div className="not-found-titlebar">
-          <span>
-            <i />
-            <i />
-            <i />
-          </span>
           <b>Quodex</b>
         </div>
         <div className="not-found-content">
